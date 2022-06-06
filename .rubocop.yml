@@ -1,13 +1,19 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
+
 AllCops:
   TargetRubyVersion: 2.6
+  NewCops: disable
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
+Style/Documentation:
+  Enabled: false
 
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
+RSpec/DescribedClass:
+  Enabled: false
 
-Layout/LineLength:
-  Max: 120
+RSpec/ExampleLength:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
