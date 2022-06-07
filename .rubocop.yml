@@ -9,11 +9,14 @@ AllCops:
 Style/Documentation:
   Enabled: false
 
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
 RSpec/DescribedClass:
   Enabled: false
 
 RSpec/ExampleLength:
   Enabled: false
 
-Style/RescueStandardError:
+Bundler/OrderedGems:
   Enabled: false
