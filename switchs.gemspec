@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['ton-tonton']
   spec.email = ['phantom.ness@windowslive.com']
 
-  spec.summary = 'Shuffle given string'
+  spec.summary = 'Switching given string'
   spec.homepage = 'https://github.com/ton-tonton/switchs'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
